@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.radiogroup.refreshdemo.view.JdLoadMoreFooterView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/refresh_header_height_jd"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+        <ImageView
+            android:id="@+id/ivSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@mipmap/jd_speed" />
+
+        <ImageView
+            android:id="@+id/ivRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/animation_list_refresh_jd" />
+
+    </LinearLayout>
+
+
+</com.radiogroup.refreshdemo.view.JdLoadMoreFooterView>
